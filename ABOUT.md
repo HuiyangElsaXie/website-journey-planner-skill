@@ -1,4 +1,4 @@
-# About draft / About 文案草稿
+# Repository description / 仓库简介
 
 English: Personal-use website information architecture, navigation and user journeys skill. Continuously updated.
 

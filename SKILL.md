@@ -5,6 +5,8 @@ description: Plan website information architecture, navigation, page roles and a
 
 # Website Journey Planner
 
+Optional first-use example: [page tree, navigation and two journeys](examples/fictional-example.md), with [the planning template](templates/output.md). The scenario is fictional and no live behavior was tested. Consult it only when needed; keep this root folder and supporting resources together.
+
 ## Start with a small brief
 Reuse relevant existing briefs, supplied pages and prior decisions only when access and this task's purpose permit. Do not search unrelated private sources. Record the source link/file/message, date and relevant fact. Public-facing output must not expose private context; anonymize it or ask before external sharing.
 Capture business/product, target audience and intent, primary goal, lifecycle (new, growing, mature, restructuring), acquisition context, language, and constraints (platform, budget, time, existing URLs, brand/compliance). Ask a compact batch of missing questions only when they would change the deliverable. Otherwise state a provisional assumption and proceed.

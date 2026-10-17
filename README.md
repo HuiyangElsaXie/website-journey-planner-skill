@@ -28,3 +28,5 @@ Produces a reviewable plan/audit, draft wording where appropriate, evidence gaps
 
 开源来源、固定提交、改写范围及完整许可证见 THIRD_PARTY_NOTICES.md。本仓库未自行指定整体许可证；“个人自用”是项目定位，不改变上游 MIT 许可权利。
 
+
+Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。

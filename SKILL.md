@@ -22,6 +22,11 @@ Use [templates/output.md](templates/output.md); include only relevant sections. 
 Before delivering, check every factual claim against its ledger ID, label each recommendation, preserve user constraints, and list material missing evidence. Source/adaptation details are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 
+## Journey evidence labels
+Do not give an omitted actor, step or button label a plausible identity to make a journey concrete. A platform name or purchase goal does not prove an "Add to cart" button, cart page or checkout sequence exists. Label each unprovided step/button as unknown or "assumed typical flow — unverified" in the journey row itself. Keep proposed CTA wording separate from observed labels.
+
+Keep known current inventory separate from proposed architecture. If a provisional skeleton uses illustrative page names/URLs, label them proposed placeholders and attach: "Do not reuse this skeleton as the site's actual inventory." Do not copy those names into current-state tables, audit defects or downstream handoffs as supplied pages. Check page-role and journey tables for this separation before delivery.
+
 ## Plan the structure and journeys
 1. Inventory known pages: current URL, purpose, intended audience, existing inbound/next-step links and evidence. Mark unknown pages instead of inventing a crawl. Separate the observed current state from proposed additions.
 2. Identify the audience's top tasks and the site's business goal. For a first version, choose the few journeys necessary for those tasks; do not force a complex framework onto a small site.

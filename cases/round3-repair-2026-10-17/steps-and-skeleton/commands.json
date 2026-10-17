@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> exec_command",
+      "operation": "read",
+      "paths": [
+        "{REPO}/SKILL.md",
+        "{CASE}/brief.md",
+        "{CASE}/case.json"
+      ],
+      "method": "specified Python -X utf8; UTF-8 text printed",
+      "outcome": "success; exit code 0",
+      "record": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> exec_command",
+      "operation": "read",
+      "paths": [
+        "{REPO}/templates/output.md"
+      ],
+      "method": "specified Python -X utf8; UTF-8 text printed",
+      "outcome": "success; exit code 0",
+      "record": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 3,
+      "tool": "functions.exec -> exec_command",
+      "operation": "write and hash",
+      "paths": [
+        "{CASE}/raw-response.md",
+        "{CASE}/commands.json",
+        "{CASE}/tool-availability.md"
+      ],
+      "hash_reads": [
+        "{REPO}/SKILL.md",
+        "{REPO}/templates/output.md"
+      ],
+      "method": "specified Python -X utf8; first write raw-response.md, then execution records",
+      "outcome": "raw-response.md written; hashes calculated; records written by this script if command completes",
+      "record": "contemporaneous record of this actual call"
+    }
+  ],
+  "self_review_performed": false
+}

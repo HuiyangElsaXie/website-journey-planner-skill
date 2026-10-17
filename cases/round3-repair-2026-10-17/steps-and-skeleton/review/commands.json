@@ -1,0 +1,42 @@
+{
+  "reviewer": "r3_review_b",
+  "record_type": "Retrospective reconstruction of actual reviewer tool calls; descriptions summarize commands and are not a verbatim shell transcript",
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> exec_command",
+      "operation": "PowerShell Get-ChildItem runs directory names",
+      "outcome": "exit 0; names only; no file contents"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> exec_command",
+      "operation": "PowerShell Get-ChildItem -Recurse -File for the three assigned repositories",
+      "outcome": "exit 0; file paths only"
+    },
+    {
+      "event": 3,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 read assigned case six files and SKILL/templates/references; json.dumps ensure_ascii=True",
+      "outcome": "exit 0; combined output truncated"
+    },
+    {
+      "event": 4,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 reread all assigned brand case/skill/template/reference material and website brief",
+      "outcome": "exit 0; complete output"
+    },
+    {
+      "event": 5,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 reread website case.json, SHA256 three brief/case/raw files, compare raw to FIRST-ANSWER marker",
+      "outcome": "exit 0; all three raw markers match"
+    },
+    {
+      "event": 6,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 hash reviewed inputs/rules and write reviews-b audits and reconstructed commands records",
+      "outcome": "this invocation; successful only if completion output reports writes"
+    }
+  ]
+}

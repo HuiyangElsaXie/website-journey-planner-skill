@@ -1,0 +1,13 @@
+{
+  "repo": "website-journey-planner-skill",
+  "scenario": "steps-and-skeleton",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "2d3548c7bb7fe899f230c25f5970f1c05b675a30",
+  "skill_entry": "SKILL.md",
+  "loaded_rule_sha256": {
+    "SKILL.md": "c3b810054807d115d27a3af9e364f6ee015f6a5df1a969dbd803119e2e5bc223",
+    "templates/output.md": "7145126492ac684c71d9fdbc8427ef674c9a8ce5d37afaea12bdf7ceecf255ad"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

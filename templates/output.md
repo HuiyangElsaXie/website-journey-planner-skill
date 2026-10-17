@@ -14,11 +14,11 @@ Scope inspected / not inspected:
 | F1 | Fill from evidence | URL, file or supplied brief | Note gaps |
 
 ## Current state
-Known pages and links:
+Known pages and links (supplied/observed evidence only; no skeleton placeholders):
 Unknowns / conflicting sources:
 
 ## Proposed architecture
-Simple indented page tree:
+Simple indented page tree (proposed placeholders identified; do not reuse a skeleton as actual inventory):
 | Page / URL | Existing or proposed | Audience question | Key content | Next action | Evidence / rationale |
 |---|---|---|---|---|---|
 
@@ -30,7 +30,7 @@ Orphan/duplicate-page checks:
 Preserved URLs / proposed old-to-new mapping and review needs:
 
 ## Proposed journeys
-| Audience / intent | Entry | Page sequence | Decision / CTA destination | Success signal | Friction hypothesis | Alternative / recovery |
+| Audience / intent | Entry and evidence status | Page sequence: known / proposed / assumed per step | Decision / CTA destination and label status | Success signal | Friction hypothesis | Alternative / recovery |
 |---|---|---|---|---|---|---|
 
 ## Priorities and validation
